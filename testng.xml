@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="/Users/vigneshs/Vignesh-Personal-Folder/Projects-Repos/Appium/Gorillas-Appium-Framework">
+        <classes>
+            <class name="tests.ItemDetailsTest"/>
+            <class name="tests.SearchItemTest"/>
+            <class name="tests.MyCartTest"/>
+            <class name="tests.FailedTest"/>
+        </classes>
+    </test>
+</suite>
